@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Bookstore Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <!-- put your own logo image file here -->
+  <img src="logo.png" alt="Logo">
+  <h2>Apni Paathshala: The Online Bookstore</h2>
+</div>
+
+<div class="nav">
+  <a href="#home">Home</a>
+  <a href="#login">Login</a>
+  <a href="#registration">Registration</a>
+  <a href="#catalogue">Catalogue</a>
+  <a href="#cart">Cart</a>
+</div>
+
+<div class="sidebar">
+  <a href="#catalogue">CSE</a>
+  <a href="#catalogue">ECE</a>
+  <a href="#catalogue">EEE</a>
+  <a href="#catalogue">CIVIL</a>
+</div>
+
+<div class="content">
+
+  <div id="home" class="section">
+    <h2>Home</h2>
+    <p>Welcome to Apni Paathshala—
+       your digital bookshelf for stories, knowledge, and inspiration.
+       Discover a carefully selected catalogue of bestselling novels, timeless classics, Indian authors, regional literature, mythology, biographies, self-help books,
+        academic reads, and children’s favourites. Register for a new account or log in to enjoy a smoother shopping experience, explore categories,
+         search for your favourite titles, add books to your cart, and manage your orders securely.
+          From heartwarming stories that feel like home to new ideas from across the world,
+           we make it easy to find the perfect book and have it delivered right to your doorstep.</p>
+  </div>
+
+  <div id="login" class="section">
+    <h2>Login</h2>
+    <form>
+      <div class="formrow">
+        User Name: <br>
+        <input type="text">
+      </div>
+      <div class="formrow">
+        Password: <br>
+        <input type="password">
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+
+  <div id="registration" class="section">
+    <h2>Registration</h2>
+    <form>
+      <div class="formrow">
+        Name: <br>
+        <input type="text">
+      </div>
+
+      <div class="formrow">
+        Password: <br>
+        <input type="password">
+      </div>
+
+      <div class="formrow">
+        Email: <br>
+        <input type="text">
+      </div>
+
+      <div class="formrow">
+        Phone Number: <br>
+        <input type="text">
+      </div>
+
+      <div class="formrow">
+        Sex: <br>
+        <input type="radio" name="sex"> Male
+        <input type="radio" name="sex"> Female
+      </div>
+
+      <div class="formrow">
+        Date of Birth: <br>
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        <select>
+          <option>January</option>
+          <option>February</option>
+          <option>March</option>
+        </select>
+        <select>
+          <option>2024</option>
+          <option>2025</option>
+          <option>2026</option>
+        </select>
+      </div>
+
+      <div class="formrow">
+        Languages Known: <br>
+        <input type="checkbox"> English
+        <input type="checkbox"> Telugu
+        <input type="checkbox"> Hindi
+        <input type="checkbox"> Tamil
+      </div>
+
+      <div class="formrow">
+        Address: <br>
+        <textarea rows="3" cols="30"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+
+  <div id="catalogue" class="section">
+    <h2>Catalogue</h2>
+
+    <div class="book">
+      <div class="book-img"><img src="COA.jpg" alt="Computer Organization and Architecture: Designing for Performance"></div>
+      <div class="book-details">
+        Book: Computer Organization and Architecture: Designing for Performance <br>
+        Author: William Stallings<br>
+        Publisher: Pearson
+      </div>
+      <div class="book-price">Rs.699</div>
+      <div class="book-action"><a href="#cart"><button>Add to cart</button></a></div>
+    </div>
+
+    <div class="book">
+      <div class="book-img"><img src="dstl.jpg" alt="Discrete Mathematics and Its Applications"></div>
+      <div class="book-details">
+        Book: Discrete Mathematics and Its Applications <br>
+        Author: Kenneth Rosen <br>
+        Publisher: McGraw-Hill
+      </div>
+      <div class="book-price">Rs.899</div>
+      <div class="book-action"><a href="#cart"><button>Add to cart</button></a></div>
+    </div>
+
+    <div class="book">
+      <div class="book-img"><img src="ds.jpg" alt="Introduction to Algorithms"></div>
+      <div class="book-details">
+        Book: Introduction to Algorithms <br>
+        Author: Thomas H. Cormen <br>
+        Publisher: MIT Press
+      </div>
+      <div class="book-price">Rs.1299</div>
+      <div class="book-action"><a href="#cart"><button>Add to cart</button></a></div>
+    </div>
+
+    <div class="book">
+      <div class="book-img"><img src="python.jpg" alt="Learning Python"></div>
+      <div class="book-details">
+        Book: Learning Python <br>
+        Author: Mark Lutz <br>
+        Publisher: O'Reilly Media
+      </div>
+      <div class="book-price">Rs.799</div>
+      <div class="book-action"><a href="#cart"><button>Add to cart</button></a></div>
+    </div>
+  </div>
+
+  <div id="cart" class="section">
+    <h2>Cart</h2>
+
+    <div class="cartrow">
+      <div>Learning Python</div>
+      <div>Rs.799 x 1</div>
+      <div>Rs.799</div>
+    </div>
+    <div class="cartrow">
+      <div>Computer Organization and Architecture: Designing for Performance</div>
+      <div>Rs.699 x 1</div>
+      <div>Rs.699</div>
+    </div>
+    <div class="cartrow">
+      <div><b>Total</b></div>
+      <div></div>
+      <div><b>Rs.1498</b></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+    <p>Created by: Reyansh Singh | Roll No: 2501920110300</p>
+</div>
+
+
+</body>
+</html>
