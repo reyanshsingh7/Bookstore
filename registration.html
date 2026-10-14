@@ -30,22 +30,26 @@
     <div class="content">
         <div class="section">
             <h2>Registration</h2>
-            <form>
+            <form novalidate>
                 <div class="formrow">
                     Name:<br>
-                    <input type="text">
+                    <input type="text" data-validate="name" maxlength="50">
+                    <span class="error"></span>
                 </div>
                 <div class="formrow">
                     Password:<br>
-                    <input type="password">
+                    <input type="password" data-validate="password">
+                    <span class="error"></span>
                 </div>
                 <div class="formrow">
                     Email:<br>
-                    <input type="text">
+                    <input type="text" data-validate="email" maxlength="60">
+                    <span class="error"></span>
                 </div>
                 <div class="formrow">
                     Phone Number:<br>
-                    <input type="text">
+                    <input type="text" data-validate="phone" maxlength="10">
+                    <span class="error"></span>
                 </div>
                 <div class="formrow">
                     Sex:<br>
@@ -90,5 +94,6 @@
     <div class="footer">
         <p>Created by: Reyansh Singh | Roll No: 2501920110300</p>
     </div>
+    <script src="validate.js"></script>
 </body>
 </html>

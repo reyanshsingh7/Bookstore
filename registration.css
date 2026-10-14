@@ -187,3 +187,15 @@ button[type="reset"] {
 button[type="reset"]:hover {
     background-color: #ffe1bf;
 }
+
+/* ---------- Validation warnings ---------- */
+.error {
+    display: block;
+    margin-top: 6px;
+    font-size: 14px;
+    color: red;
+}
+
+input.invalid {
+    border-color: red;
+}
