@@ -10,7 +10,7 @@ h2 {
     font-size: 30px;
 }
 
-/* ---------- Header ---------- */
+
 .header {
     position: fixed;
     top: 0;
@@ -32,7 +32,7 @@ h2 {
     margin-right: 20px;
 }
 
-/* ---------- Navigation bar ---------- */
+
 .nav {
     position: fixed;
     top: 110px;
@@ -62,7 +62,7 @@ h2 {
     background-color: orange;
 }
 
-/* ---------- Sidebar ---------- */
+
 .sidebar {
     position: fixed;
     top: 190px;
@@ -91,7 +91,7 @@ h2 {
     background-color: bisque;
 }
 
-/* ---------- Main content ---------- */
+
 .content {
     margin-left: 190px;
     margin-top: 190px;
@@ -103,7 +103,7 @@ h2 {
     padding-top: 20px;
 }
 
-/* ---------- Footer ---------- */
+
 .footer {
     margin-top: 20px;
     padding: 10px;
@@ -118,7 +118,7 @@ h2 {
     font-weight: bold;
 }
 
-/* ---------- Home page ---------- */
+
 #home p {
     margin-top: 30px;
     padding: 26px 30px;
